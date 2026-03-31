@@ -3,32 +3,32 @@
 # Quick Navigator Pro 🚀
 
 **Quick Navigator Pro** is a lightning-fast, borderless productivity launcher for Windows built on native HTA.
-**Quick Navigator Pro** 是一款极速、无边框的 Windows 纯键盘效率启动器，基于原生 HTA 编写。
+「**Quick Navigator Pro** 是一款极速、无边框的 Windows 纯键盘效率启动器，基于原生 HTA 编写。」
 
 Zero dependencies, no background RAM usage, instant launch.
-零额外依赖，无后台内存占用，秒级呼出。
+「零额外依赖，无后台内存占用，秒级呼出。」
 
 ### ⚙️ Setup & Usage / 配置与使用
 
 1. Open `QuickNav.hta` with Notepad and change `navPath` to your shortcuts folder (e.g., `D:\MyShortcuts`).
-   用记事本打开 `QuickNav.hta`，将 `navPath` 修改为你的快捷方式存放文件夹（如 `D:\MyShortcuts`）。
+   「用记事本打开 `QuickNav.hta`，将 `navPath` 修改为你的快捷方式存放文件夹（如 `D:\MyShortcuts`）。」
 
 2. Rename your shortcuts using the syntax: `Command=DisplayName[Category].lnk`.
-   将你的快捷方式按此语法重命名：`指令=显示名称[分类名].lnk`。
+   「将你的快捷方式按此语法重命名：`指令=显示名称[分类名].lnk`。」
    * *Example / 示例:* `ed=Edge[App].lnk` (Type `ed` to launch Edge / 输入 `ed` 即可启动 Edge).
    * *Hide items / 隐藏项目:* Add `_` prefix, e.g., `_ip=Network[System].lnk` (文件名前加 `_` 即可在界面隐藏，但输入 `ip` 依然可触发).
 
 3. Set a global hotkey for `QuickNav.hta` (e.g., `Ctrl+Space` or pin to taskbar for `Win+1`).
-   为 `QuickNav.hta` 设置一个全局快捷键（如 `Ctrl+Space`，或固定到任务栏使用 `Win+1` 唤醒）。
+   「为 `QuickNav.hta` 设置一个全局快捷键（如 `Ctrl+Space`，或固定到任务栏使用 `Win+1` 唤醒）。」
 
 ### 🛠️ Pro Features / 进阶特性
 
 * **Web Search / 网络搜索:** Type `g keyword` or `keyword g` to search Google. You can add more engines in the source code (`searchEngines` section).
-  支持双向搜索（键入 `g 关键词` 或 `关键词 g`）。你可以在源码的 `searchEngines` 区域自由追加豆瓣、Bilibili 等其他搜索引擎。
+  「支持双向搜索（键入 `g 关键词` 或 `关键词 g`）。你可以在源码的 `searchEngines` 区域自由追加豆瓣、Bilibili 等其他搜索引擎。」
 
 * **Theme Switch / 主题切换:** Defaults to dark mode for a cleaner UI. Change `THEME_MODE = 1` to `0` in the source code to switch to light mode.
-  为追求极简，界面无切换开关。默认为深色模式，将源码中的 `THEME_MODE = 1` 改为 `0` 即可切换至亮色模式。
+  「为追求极简，界面无切换开关。默认为深色模式，将源码中的 `THEME_MODE = 1` 改为 `0` 即可切换至亮色模式。」
 
 * **Limitless Shortcuts / 万物皆可直达:** Launch anything Windows can open. Create shortcuts using URI schemes for Teams contacts (`msteams://...`), System Settings (`ms-settings:display`), or any batch scripts.
-  不仅能打开文件，还能直达万物。你可以利用 Windows URI 创建快捷方式，秒开 Teams 联系人（`msteams://...`）、系统设置（`ms-settings:...`）或执行 `.bat` 脚本。
+  「不仅能打开文件，还能直达万物。你可以利用 Windows URI 创建快捷方式，秒开 Teams 联系人（`msteams://...`）、系统设置（`ms-settings:...`）或执行 `.bat` 脚本。」
 
